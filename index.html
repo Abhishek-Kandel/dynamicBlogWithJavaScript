@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>A medium-like page</title>
+  </head>
+
+  <body>
+    <!--Navigation bar-->
+    <div class="fixed-header">
+      <!--todo: use one div/header tag <used two to align both blog and header in the center of the page>-->
+      <div class="container">
+        <nav>
+          <a href="#blogg">Blog</a>
+          <a href="#aform">Form</a>
+          <a href="#table1">Diet Chart</a>
+          <a href="#foot">About Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <!--Blog bar-->
+    <div class="container">
+      <div id="blogg"></div>
+    </div>
+
+    <div>
+      <h2 class="tableHeading">Diet chart</h2>
+
+      <!--For taking user input-->
+      <div class="tableAndForm">
+        <div class="tableAndForm-child">
+          <form id="aform">
+            <label for="food">Food:</label>
+            <input type="text" id="food" name="food" required />
+            <label for="quantity">Quantity:</label>
+            <input type="quantity" id="quantity" name="quantity" required />
+            <label for="carb">Carb:</label>
+            <input type="text" id="carb" name="carb" required />
+            <label for="protein">Protein:</label>
+            <input type="text" id="protein" name="protein" required />
+            <label for="fat">Fat:</label>
+            <input type="text" id="fat" name="fat" required />
+            <label for="calorie">Calorie:</label>
+            <input type="text" id="calorie" name="calorie" required />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+
+        <hr />
+
+        <div class="tableAndForm-child">
+          <!--Table heading-->
+          <table id="table1"></table>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <p id="abc"></p>
+    <div class="fixed-footer" id="foot">
+      <div class="container" style="text-align: center">
+        Copyright &copy; 2023 ABHISHEK
+      </div>
+    </div>
+
+    <script type="module" src="./js/main.js" defer></script>
+  </body>
+</html>

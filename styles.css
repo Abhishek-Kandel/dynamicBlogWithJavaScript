@@ -1,0 +1,101 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fixed-header,
+.fixed-footer {
+  width: 100%;
+  position: fixed;
+  background: #333;
+  padding: 10px 0;
+  color: #fff;
+}
+.fixed-header {
+  top: 0;
+}
+.fixed-footer {
+  bottom: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  display: inline-block;
+}
+.blog {
+  padding: 50px;
+}
+h2 {
+  padding-top: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.pp {
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(23, 22, 22);
+}
+.p1 {
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+}
+
+img {
+  height: 50%;
+  width: 100%;
+  float: right;
+  padding: 0 50px;
+  padding-bottom: 100px;
+}
+.tableHeading {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(161, 158, 158);
+}
+
+.flex-child {
+  border: collapse;
+}
+
+.flex-child:first-child {
+  margin-right: 30px;
+}
+
+span {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.tableAndForm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+#table1 tr td:nth-child(1),
+#table1 th:nth-child(1) {
+  display: none;
+}
