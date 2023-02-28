@@ -1,3 +1,4 @@
+//blog posted date
 let d = new Date();
 let day = d.getDate();
 let month = d.getMonth();
